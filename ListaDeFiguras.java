@@ -20,7 +20,7 @@ public class ListaDeFiguras {
             Circulo key = this.dados[i];
             int j = i - 1;
  
-            while (j >= 0 && this.dados[j].getRaio().compareTo(key.getRaio()) {
+            while (j >= 0 && this.dados[j].getRaio().compareTo(key.getRaio()) { //incompleto
                 this.dados[j + 1] = this.dados[j];
                 j--;
             }
