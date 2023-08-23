@@ -1,4 +1,7 @@
-public class Circulo {
+package figurasgeometricas;
+
+
+    public class Circulo {
     private double coordX;
     private double coordY;
     private double raio;
